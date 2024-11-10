@@ -6,13 +6,13 @@ const Blog = () => {
       <h1 className="pageTitle">How We Plan Your Perfect Travel Trips</h1>
       <div className="blogContent">
         <p className="introText">
-          At [Your Website Name], we understand that travel is not just about visiting new places, but about creating unforgettable memories.
+          Here, we understand that travel is not just about visiting new places, but about creating unforgettable memories.
           Our expert team specializes in crafting personalized travel experiences that are tailored to your preferences and interests.
         </p>
 
         <h2 className="sectionTitle">Our Approach to Travel Planning</h2>
         <p className="sectionContent">
-          Planning a trip can be overwhelming with so many options and details to consider. That’s where we come in. We take the time to understand your travel goals, whether it's an adventurous getaway, a relaxing retreat, or exploring a city’s culture. Our team of travel experts ensures every aspect is well-organized, from transportation to accommodation, so you can focus on enjoying your journey.
+          Planning a trip can be overwhelming with so many options and details to consider. That&apos;s where we come in. We take the time to understand your travel goals, whether it's an adventurous getaway, a relaxing retreat, or exploring a city&apos;s culture. Our team of travel experts ensures every aspect is well-organized, from transportation to accommodation, so you can focus on enjoying your journey.
         </p>
 
         <h2 className="sectionTitle">Why Choose Us?</h2>
@@ -28,14 +28,14 @@ const Blog = () => {
           From the bustling streets of Tokyo to the serene beaches of Bali, we have connections and insights to help you discover the best destinations. Here are a few of our top recommendations:
         </p>
         <ol className="destinationList">
-          <li>Paris – The city of light, culture, and romance.</li>
-          <li>Tokyo – A city blending traditional and modern vibes.</li>
-          <li>New York – An energetic hub of diversity and opportunity.</li>
-          <li>Sydney – Known for its stunning beaches and iconic landmarks.</li>
+          <li>Paris  The city of light, culture, and romance.</li>
+          <li>Tokyo A city blending traditional and modern vibes.</li>
+          <li>New York  An energetic hub of diversity and opportunity.</li>
+          <li>Sydney Known for its stunning beaches and iconic landmarks.</li>
         </ol>
 
         <p className="closingText">
-          Whether you’re looking for an adventure, relaxation, or cultural exploration, we’re here to help you plan the perfect trip. Reach out to us today and start your journey with confidence!
+          Whether you&apos;re looking for an adventure, relaxation, or cultural exploration, we’re here to help you plan the perfect trip. Reach out to us today and start your journey with confidence!
         </p>
       </div>
     </div>

@@ -2,10 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
+body {
   overflow-x: hidden;
 }
-.navbar{
+.navbar {
   position: absolute;
   width: 100%;
   padding: 2rem;
@@ -13,14 +13,14 @@ body{
   z-index: 100;
   justify-content: space-between;
 }
-.navbar .first{
+.navbar .first {
   display: flex;
-  gap:2rem;
+  gap: 2rem;
 }
-.first Link{
+.first Link {
   cursor: pointer;
 }
-.navbar .second .btn{
+.navbar .second .btn {
   padding: 1rem 2rem;
   /* color: black; */
   width: 10rem;
@@ -31,13 +31,12 @@ body{
   border-radius: 40px;
   cursor: pointer;
   text-align: center;
-
 }
-.navbar .second .btn:hover{
+.navbar .second .btn:hover {
   border: 2px solid black;
   background: transparent;
   color: black;
-  transition: .3s;
+  transition: 0.3s;
 }
 .hero {
   position: relative;
@@ -63,12 +62,11 @@ body{
   color: white; /* Text color */
   text-align: center;
   padding: 20px;
-filter: drop-shadow(5px 5px 5px black);
+  filter: drop-shadow(5px 5px 5px black);
 }
-.hero-content h1{
+.hero-content h1 {
   font-size: 3rem;
   font-weight: 500;
-
 }
 
 /* ------------------ DESTINATIONS ----------------------- */
@@ -190,26 +188,57 @@ filter: drop-shadow(5px 5px 5px black);
   margin-top: 40px;
 }
 
+/* --------------------------- MEDIA QUERIES ------------------------------ */
 
-
-@media screen and (max-width:500px){
-  .navbar{
+@media screen and (max-width: 500px) {
+  .navbar {
     justify-content: center;
     padding: 1rem;
   }
-  .navbar .first{
+  .navbar .first {
     gap: 1rem;
-
-    font-size: .5rem;
+    font-size: 0.7rem;
   }
-  .navbar .second .btn{
-   display: none;
+  .navbar .second .btn {
+    display: none;
   }
-  .hero-content h1{
+  .hero-content h1 {
     font-size: 1.2rem;
+  }
+  .hero-content p {
+    font-size: 0.6rem;
+  }
+  .pageTitle {
+    font-size: 1.5rem;
+  }
+  .destinationsContainer {
+    grid-template-columns: 1fr;
+    padding: 0 0.5rem;
+  }
+  .destinationImage {
+    height: 8rem;
+  }
+  .destinationName {
+    font-size: 1.3rem;
+    color: #333;
+    margin: 5px 0;
+  }
+  .introText {
+    font-size: .9rem;
+  }
+  .sectionTitle {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .sectionContent {
+    font-size: .9rem;
+  }
+  .closingText {
+    font-size: .8rem;
+    color: #333;
+    font-weight: 500;
   
   }
-  .hero-content p{
-    font-size: .6rem;
-  }
+  
 }
