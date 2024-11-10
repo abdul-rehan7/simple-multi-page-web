@@ -8,7 +8,6 @@ export default function Navbar() {
         <Link href={"/"}>Home</Link>
         <Link href={"/destinations"}>Destinations</Link>
         <Link href={"/blog"}>Blog</Link>
-        <Link href={"/contact"}>Contact </Link>
       </div>
       <div className="second">
         <div className="btn">Plan Now</div>
