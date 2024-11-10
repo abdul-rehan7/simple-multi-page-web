@@ -12,7 +12,7 @@ const Blog = () => {
 
         <h2 className="sectionTitle">Our Approach to Travel Planning</h2>
         <p className="sectionContent">
-          Planning a trip can be overwhelming with so many options and details to consider. That&apos;s where we come in. We take the time to understand your travel goals, whether it's an adventurous getaway, a relaxing retreat, or exploring a city&apos;s culture. Our team of travel experts ensures every aspect is well-organized, from transportation to accommodation, so you can focus on enjoying your journey.
+          Planning a trip can be overwhelming with so many options and details to consider. That&apos;s where we come in. We take the time to understand your travel goals, whether it&apos;s an adventurous getaway, a relaxing retreat, or exploring a city&apos;s culture. Our team of travel experts ensures every aspect is well-organized, from transportation to accommodation, so you can focus on enjoying your journey.
         </p>
 
         <h2 className="sectionTitle">Why Choose Us?</h2>
@@ -35,7 +35,7 @@ const Blog = () => {
         </ol>
 
         <p className="closingText">
-          Whether you&apos;re looking for an adventure, relaxation, or cultural exploration, we’re here to help you plan the perfect trip. Reach out to us today and start your journey with confidence!
+          Whether you&apos;re looking for an adventure, relaxation, or cultural exploration, we&apos;re here to help you plan the perfect trip. Reach out to us today and start your journey with confidence!
         </p>
       </div>
     </div>
