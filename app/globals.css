@@ -21,7 +21,7 @@ body{
   cursor: pointer;
 }
 .navbar .second .btn{
-  padding: .9rem;
+  padding: 1rem 2rem;
   /* color: black; */
   width: 10rem;
   border: 2px solid black;

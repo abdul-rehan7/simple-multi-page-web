@@ -10,7 +10,7 @@ export default function Navbar() {
         <Link href={"/blog"}>Blog</Link>
       </div>
       <div className="second">
-        <div className="btn">Plan Now</div>
+        <Link href={"/destinations"} className="btn"> Plan Now</Link>
       </div>
     </div>
   );
