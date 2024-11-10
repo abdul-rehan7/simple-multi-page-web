@@ -8,8 +8,8 @@ export default function Hero() {
         Your browser does not support the video tag.
       </video>
       <div className='hero-content'>
-        <h1>Welcome to My Website</h1>
-        <p>Your introduction text goes here.</p>
+        <h1>Your Journey Begins Here</h1>
+        <p>Explore the world with us and start your adventure today</p>
       </div>
     </div>
   

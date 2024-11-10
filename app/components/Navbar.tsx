@@ -6,9 +6,9 @@ export default function Navbar() {
     <div className="navbar">
       <div className="first">
         <Link href={""}>Home</Link>
-        <Link href={""}>Home</Link>
-        <Link href={""}>Home</Link>
-        <Link href={""}>Home</Link>
+        <Link href={""}>Destinations</Link>
+        <Link href={""}>Blog</Link>
+        <Link href={""}>Contact </Link>
       </div>
       <div className="second">
         <div className="btn">Plan Now</div>

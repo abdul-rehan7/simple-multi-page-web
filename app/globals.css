@@ -8,22 +8,36 @@ body{
 .navbar{
   position: absolute;
   width: 100%;
-  padding: 1rem;
+  padding: 2rem;
   display: flex;
-  justify-content: space-evenly;
+  z-index: 100;
+  justify-content: space-between;
 }
 .navbar .first{
   display: flex;
-  gap:7px;
+  gap:2rem;
+}
+.first Link{
+  cursor: pointer;
 }
 .navbar .second .btn{
   padding: .9rem;
-  color: black;
+  /* color: black; */
   width: 10rem;
-  cursor: pointer;
-  border-radius: 40px;
-  text-align: center;
   border: 2px solid black;
+  cursor: pointer;
+  background: black;
+  color: white;
+  border-radius: 40px;
+  cursor: pointer;
+  text-align: center;
+
+}
+.navbar .second .btn:hover{
+  border: 2px solid black;
+  background: transparent;
+  color: black;
+  transition: .3s;
 }
 .hero {
   position: relative;
@@ -49,11 +63,33 @@ body{
   color: white; /* Text color */
   text-align: center;
   padding: 20px;
+  color: black;
+}
+.hero-content h1{
+  font-size: 3rem;
+  font-weight: 500;
+
 }
 
 
 @media screen and (max-width:500px){
   .navbar{
+    justify-content: center;
+    padding: 1rem;
+  }
+  .navbar .first{
+    gap: 1rem;
+
+    font-size: .5rem;
+  }
+  .navbar .second .btn{
    display: none;
+  }
+  .hero-content h1{
+    font-size: 1.2rem;
+  
+  }
+  .hero-content p{
+    font-size: .6rem;
   }
 }
